@@ -1,0 +1,50 @@
+{
+  "kind": "request",
+  "id": "/api/environments/@current/web_vitals",
+  "route_id": "api/environments/(?P<parent_lookup_team_id>[^/.]+)/web_vitals/?$",
+  "container_hostname": "posthog-web-django-55d88b6945-6l498",
+  "http_user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36",
+  "team_id": 97337,
+  "cache_key": "cache_34b7fb777470a788970828b3f89a8ea2",
+  "sentry_trace": "9ac2992516174beb8d2346c113128837-9daf687af6ef864c-0",
+  "query_type": "TrendsQuery",
+  "has_joins": false,
+  "has_json_operations": false,
+  "timings": {
+    "./execute_queries/series_3/query": 5.275000012261444e-05,
+    "./execute_queries/series_3/variables": 2.235100009784219e-05,
+    "./execute_queries/series_3/replace_placeholders": 0.0003740379997907439,
+    "./execute_queries/series_3/max_limit": 3.296800014140899e-05,
+    "./execute_queries/series_3/hogql/prepare_ast": 4.34290000157489e-05,
+    "./execute_queries/series_3/hogql/clone": 0.0004378150001684844,
+    "./execute_queries/series_3/hogql/create_hogql_database": 0.3212930280001274,
+    "./execute_queries/series_3/hogql/resolve_types": 0.0015546790000371402,
+    "./execute_queries/series_3/hogql": 0.3234021150001354,
+    "./execute_queries/series_3/print_ast/printer": 0.0008969390000856947,
+    "./execute_queries/series_3/print_ast": 0.0009548319999339583,
+    "./execute_queries/series_3/create_hogql_database": 0.2162224859998787,
+    "./execute_queries/series_3/resolve_types": 0.0015520130000368226,
+    "./execute_queries/series_3/resolve_property_types": 0.013105609999911394,
+    "./execute_queries/series_3/resolve_lazy_tables": 0.0014547189998666,
+    "./execute_queries/series_3/swap_properties": 0.0005182570002943976,
+    "./execute_queries/series_3/printer": 0.0013390369999797258,
+    "./execute_queries/series_3": 0.6481418719999965
+  },
+  "modifiers": {
+    "bounceRatePageViewMode": "count_pageviews",
+    "dataWarehouseEventsModifiers": [],
+    "inCohortVia": "auto",
+    "materializationMode": "legacy_null_as_null",
+    "optimizeJoinedFilters": false,
+    "personsArgMaxVersion": "auto",
+    "personsOnEventsMode": "person_id_override_properties_on_events",
+    "propertyGroupsMode": "optimized",
+    "sessionTableVersion": "auto"
+  },
+  "workload": "Workload.DEFAULT",
+  "query_settings": {
+    "join_algorithm": "direct,parallel_hash,hash",
+    "distributed_replica_max_ignored_errors": 1000,
+    "max_query_size": 1048576
+  }
+}
